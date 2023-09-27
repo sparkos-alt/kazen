@@ -1,0 +1,29 @@
+.userfeedback-submenu-highlight {
+    background: #00A22B;
+}
+
+.userfeedback-submenu-highlight a span {
+    color: #fff;
+    font-weight: 600;
+}
+
+#adminmenu li.toplevel_page_userfeedback_surveys .wp-menu-image img {
+    opacity: 1;
+}
+
+body.userfeedback_page #wpcontent{
+    padding-bottom: 100px;
+}
+
+.userfeedback-love{
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.userfeedback-love .sep{
+    color: #c3c4c7;
+    display: inline-block;
+    margin: 9px 7px;
+}

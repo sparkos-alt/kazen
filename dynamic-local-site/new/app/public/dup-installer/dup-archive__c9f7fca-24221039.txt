@@ -1,0 +1,875 @@
+{
+    "dup_type": "lite",
+    "created": "2023-09-24 22:10:39",
+    "version_dup": "1.5.6",
+    "version_wp": "6.3.1",
+    "version_db": "10.5.20",
+    "version_php": "8.0.30",
+    "version_os": "Linux",
+    "blogname": "Kazen Projects",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$.MDS\/IEp2zq7Vq3zBHtzTOLRTz4x6cWo.OfmI5fH6k07O3JBVJ74S",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpfp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "kazenprojects.com",
+            "path": "\/",
+            "blogname": "Kazen Projects",
+            "blog_prefix": "wpfp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "a8onr",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/kazenprojects.com",
+            "fullSiteUrl": "https:\/\/kazenprojects.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/kaizutng\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/kaizutng\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/kazenprojects.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "kaizutng_wp986",
+        "tablesBaseCount": 29,
+        "tablesFinalCount": 29,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1430,
+        "tablesSizeOnDisk": 7651328,
+        "tablesList": {
+            "wpfp_actionscheduler_actions": {
+                "inaccurateRows": 116,
+                "insertedRows": 116,
+                "size": 196608
+            },
+            "wpfp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpfp_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wpfp_actionscheduler_logs": {
+                "inaccurateRows": 375,
+                "insertedRows": 336,
+                "size": 98304
+            },
+            "wpfp_aioseo_cache": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 147456
+            },
+            "wpfp_aioseo_notifications": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpfp_aioseo_posts": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 32768
+            },
+            "wpfp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpfp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wpfp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpfp_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpfp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpfp_litespeed_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpfp_litespeed_url_file": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wpfp_options": {
+                "inaccurateRows": 498,
+                "insertedRows": 506,
+                "size": 3227648
+            },
+            "wpfp_postmeta": {
+                "inaccurateRows": 176,
+                "insertedRows": 164,
+                "size": 147456
+            },
+            "wpfp_posts": {
+                "inaccurateRows": 132,
+                "insertedRows": 179,
+                "size": 2588672
+            },
+            "wpfp_simply_static_pages": {
+                "inaccurateRows": 57,
+                "insertedRows": 57,
+                "size": 81920
+            },
+            "wpfp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpfp_terms": {
+                "inaccurateRows": 6,
+                "insertedRows": 7,
+                "size": 49152
+            },
+            "wpfp_term_relationships": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wpfp_term_taxonomy": {
+                "inaccurateRows": 6,
+                "insertedRows": 7,
+                "size": 49152
+            },
+            "wpfp_userfeedback_surveys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpfp_userfeedback_survey_responses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpfp_usermeta": {
+                "inaccurateRows": 26,
+                "insertedRows": 30,
+                "size": 49152
+            },
+            "wpfp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wpfp_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wpfp_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpfp_wpforms_tasks_meta": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.5.20",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20230924_kazenprojects",
+        "packageHash": "c9f7fca-24221039",
+        "secondaryHash": "36def4d-24221039"
+    },
+    "fileInfo": {
+        "dirCount": 2429,
+        "fileCount": 13397,
+        "size": 114333294
+    },
+    "wpInfo": {
+        "version": "6.3.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/kaizutng\/public_html",
+        "targetPaths": [
+            "\/home\/kaizutng\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "a8onr",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/kaizutng\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "c64on4dxdoalnv9qcisviuuierzmadjrodpwrugo1fdta5xjy90zy6kzezs771g5",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "ntfllikuphhaqdex5jluwu140oopmjnpubmn5jejpfdrlh3xfb3zbv38g7rpb4m2",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "8kpornknckc7t0s9lzsxfwgymcxdiys2mtwuhww5bozxioj8c3kcxt232mpt9qjf",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "w078suchch4115mvppfsr4vfltx5gu2b4ixsrrvxoepkuhaosnd0g64iuvjrwhjy",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "fgyelsg2b248acwcplafog65ym1ickmqsfn7y8iyggifi8fbykmtf4rgs6zzalb1",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "2twemgfz72n3eawnhtndp4mwosonf35vbci3g6hnbuqrk8jxoog2jbaehitt5nut",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "6yg0ntrjaayw7cpnwmzvfmfyaladzr9jq9fuwwgznmslkmrt8qrayjoejjgzka3e",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "riwo08peymjahaf2xgdhqotccurznovdfkcnygwdkcug7ng0jwomdapxqwxugvjg",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/kazenprojects.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/kazenprojects.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1024M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/kaizutng\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/kazenprojects.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/kazenprojects.com",
+                "homeUrl": "https:\/\/kazenprojects.com",
+                "loginUrl": "https:\/\/kazenprojects.com\/wp-login.php",
+                "contentUrl": "https:\/\/kazenprojects.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/kazenprojects.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/kazenprojects.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/kazenprojects.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/kazenprojects.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/kaizutng\/public_html",
+                    "abs": "\/home\/kaizutng\/public_html",
+                    "wpconfig": "\/home\/kaizutng\/public_html",
+                    "wpcontent": "\/home\/kaizutng\/public_html\/wp-content",
+                    "uploads": "\/home\/kaizutng\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/kaizutng\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/kaizutng\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/kaizutng\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/kaizutng\/public_html",
+                    "abs": "\/home\/kaizutng\/public_html",
+                    "wpconfig": "\/home\/kaizutng\/public_html",
+                    "wpcontent": "\/home\/kaizutng\/public_html\/wp-content",
+                    "uploads": "\/home\/kaizutng\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/kaizutng\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/kaizutng\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/kaizutng\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "7.78",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Migration tool for all your blog data. Import or Export your blog content with a single click.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-seo-pack\/all_in_one_seo_pack.php": {
+                "slug": "all-in-one-seo-pack\/all_in_one_seo_pack.php",
+                "name": "All in One SEO",
+                "version": "4.4.6",
+                "pluginURI": "https:\/\/aioseo.com\/",
+                "author": "All in One SEO Team",
+                "authorURI": "https:\/\/aioseo.com\/",
+                "description": "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007.",
+                "title": "All in One SEO",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.6",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.16.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "8.19",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/lite\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "litespeed-cache\/litespeed-cache.php": {
+                "slug": "litespeed-cache\/litespeed-cache.php",
+                "name": "LiteSpeed Cache",
+                "version": "5.6",
+                "pluginURI": "https:\/\/www.litespeedtech.com\/products\/cache-plugins\/wordpress-acceleration",
+                "author": "LiteSpeed Technologies",
+                "authorURI": "https:\/\/www.litespeedtech.com",
+                "description": "High-performance page caching and site optimization from LiteSpeed",
+                "title": "LiteSpeed Cache",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mobile-smart\/mobile-smart.php": {
+                "slug": "mobile-smart\/mobile-smart.php",
+                "name": "Mobile Smart",
+                "version": "v1.3.16",
+                "pluginURI": "http:\/\/www.dansmart.co.uk\/downloads\/",
+                "author": "<a href=\"http:\/\/www.dansmart.co.uk\/\">Dan Smart<\/a>",
+                "authorURI": "",
+                "description": "Mobile Smart contains helper tools for mobile devices +  switching mobile themes. <a href=\"\/wp-admin\/options-general.php?page=mobile-smart.php\">Settings<\/a>",
+                "title": "Mobile Smart",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "simply-static\/simply-static.php": {
+                "slug": "simply-static\/simply-static.php",
+                "name": "Simply Static",
+                "version": "3.1.0",
+                "pluginURI": "https:\/\/patrickposner.dev",
+                "author": "Patrick Posner",
+                "authorURI": "https:\/\/patrickposner.dev",
+                "description": "A static site generator to create fast and secure static versions of your WordPress website.",
+                "title": "Simply Static",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ultimate-addons-for-gutenberg\/ultimate-addons-for-gutenberg.php": {
+                "slug": "ultimate-addons-for-gutenberg\/ultimate-addons-for-gutenberg.php",
+                "name": "Spectra",
+                "version": "2.7.10",
+                "pluginURI": "https:\/\/www.brainstormforce.com",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster.",
+                "title": "Spectra",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "astra-sites\/astra-sites.php": {
+                "slug": "astra-sites\/astra-sites.php",
+                "name": "Starter Templates",
+                "version": "3.4.2",
+                "pluginURI": "https:\/\/wpastra.com\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+                "title": "Starter Templates",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "updraftplus\/updraftplus.php": {
+                "slug": "updraftplus\/updraftplus.php",
+                "name": "UpdraftPlus - Backup\/Restore",
+                "version": "1.23.10",
+                "pluginURI": "https:\/\/updraftplus.com",
+                "author": "UpdraftPlus.Com, DavidAnderson",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+                "title": "UpdraftPlus - Backup\/Restore",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "userfeedback-lite\/userfeedback.php": {
+                "slug": "userfeedback-lite\/userfeedback.php",
+                "name": "UserFeedback Lite",
+                "version": "1.0.10",
+                "pluginURI": "https:\/\/www.userfeedback.com\/lite?utm_source=liteplugin&utm_medium=pluginlist",
+                "author": "UserFeedback Team",
+                "authorURI": "https:\/\/userfeedback.com\/lite",
+                "description": "See what your analytics software isn\u2019t telling you with powerful UserFeedback surveys.",
+                "title": "UserFeedback Lite",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.3.1",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-migrate-db\/wp-migrate-db.php": {
+                "slug": "wp-migrate-db\/wp-migrate-db.php",
+                "name": "WP Migrate Lite",
+                "version": "2.6.9",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-migrate-db\/",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/deliciousbrains.com\/wp-migrate-db-pro\/?utm_source=plugin-header&utm_medium=plugin&utm_campaign=plugin-author&utm_content=wp-migrate-author",
+                "description": "Migrate your database. Export full sites including media, themes, and plugins. Find and replace content with support for serialized data.",
+                "title": "WP Migrate Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-reset\/wp-reset.php": {
+                "slug": "wp-reset\/wp-reset.php",
+                "name": "WP Reset",
+                "version": "1.97",
+                "pluginURI": "https:\/\/wpreset.com\/",
+                "author": "WebFactory Ltd",
+                "authorURI": "https:\/\/www.webfactoryltd.com\/",
+                "description": "Reset the entire site or just selected parts while reserving the option to undo by using snapshots.",
+                "title": "WP Reset",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-rollback\/wp-rollback.php": {
+                "slug": "wp-rollback\/wp-rollback.php",
+                "name": "WP Rollback",
+                "version": "1.7.3",
+                "pluginURI": "https:\/\/givewp.com\/",
+                "author": "GiveWP.com",
+                "authorURI": "https:\/\/givewp.com\/",
+                "description": "Rollback (or forward) any WordPress.org plugin or theme like a boss.",
+                "title": "WP Rollback",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-migrate-db-pro-compatibility.php": {
+                "slug": "wp-migrate-db-pro-compatibility.php",
+                "name": "WP Migrate Lite Compatibility",
+                "version": "1.3",
+                "pluginURI": "http:\/\/deliciousbrains.com\/wp-migrate-db-pro\/",
+                "author": "Delicious Brains",
+                "authorURI": "http:\/\/deliciousbrains.com",
+                "description": "Prevents 3rd party plugins from being loaded during WP Migrate DB specific operations",
+                "title": "WP Migrate Lite Compatibility",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.3.1",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.8",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.4",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "accessibility-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Kazen Projects"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20230924_kazenprojects_c9f7fcad5e877db64846_20230924221039_installer-backup.php",
+    "package_name": "20230924_kazenprojects_c9f7fcad5e877db64846_20230924221039_archive.zip",
+    "package_hash": "c9f7fca-24221039",
+    "package_notes": ""
+}
